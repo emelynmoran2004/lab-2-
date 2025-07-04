@@ -21,7 +21,7 @@ public class BudgetCalculator {
        totalExpenses = rentAmount + groceriesAmount + entertainmentAmount;
         remainingBalance = monthlySalary - totalExpenses;
 
-        System.out.println("=== Monthly Budget Summary ===");
+      System.out.println("=== Monthly Budget Summary ===");
         System.out.println("Monthly Salary: $" + monthlySalary);
         System.out.println("Amount Saved: $" + savedAmount);
         System.out.println("Amount Spent on Rent: $" + rentAmount);
